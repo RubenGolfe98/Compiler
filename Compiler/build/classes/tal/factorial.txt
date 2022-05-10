@@ -1,0 +1,38 @@
+string strin
+string stringg
+
+/** *** Probamos...
+un comentario de bloque *** **/
+
+integer intege
+integer integerr
+
+/*** **** // Probamos...
+otro comentario de bloque **** ***/
+
+integer iff
+integer whil
+integer whilee
+
+/* Las variables anteriores sirven para
+comprobar que se analiza correctamente las
+palabras reservadas y los identsiicadores */
+
+integer n // numero a calcular
+integer r // resultado
+integer i // contador
+
+n = 10
+r = 1
+i = 2
+
+while !(+(-i) < -(+n)) do
+    r = r * i
+    i = i - (-1)
+end
+
+if r == 3628800 then
+    echo "OK: "+ r
+else
+    echo "ERROR: "+ r
+end

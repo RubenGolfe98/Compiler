@@ -1,0 +1,19 @@
+integer n
+integer d
+n = 2
+
+while n < 100 do
+    d = 2
+
+    while d * d <= n && n / d * d != n do
+        d = d + 1 
+    end
+
+    if d * d > n then
+        echo n +" primo!" 
+    else 
+        echo n +" no" 
+    end
+
+    n = n + 1 
+end

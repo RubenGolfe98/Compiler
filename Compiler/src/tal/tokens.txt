@@ -1,0 +1,4 @@
+integer string if then else while do end echo
+id var// comentario de linea
+1234"cadena"/* comentario
+de bloque */= +-*/== < > <= >= != ! || && ()

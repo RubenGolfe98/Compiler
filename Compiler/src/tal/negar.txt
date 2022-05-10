@@ -1,0 +1,8 @@
+integer i
+i = 3
+
+if -i != -3 then
+    echo "ERROR!"
+else
+    echo "OK: Funciona el operador 'negar'"
+end

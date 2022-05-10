@@ -1,0 +1,11 @@
+integer a
+integer b
+
+a = 0
+b = 1
+
+if (a==1 || b==1) && (a!=1 || b!=1) then
+    echo "OK: uno de los dos es 1"
+else
+    echo "ERROR"
+end

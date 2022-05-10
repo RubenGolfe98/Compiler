@@ -1,0 +1,30 @@
+integer n
+integer d
+integer t
+t = 0
+n = 2
+
+while n < 100 do
+    d = 2
+
+    while d*d<=n && n/d*d != n do
+        d = d+1
+    end
+
+    if d*d > n then
+        echo n +" es primo!"
+        t = t+1
+    else
+        echo n +" no"
+    end
+
+    n = n+1
+end
+
+echo ""
+
+if t==25 then
+    echo "OK: "+ t +" primos"
+else
+    echo "ERROR: ho hay "+ t +" primos"
+end
